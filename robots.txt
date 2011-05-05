@@ -1,9 +1,0 @@
-User-agent: *
-Sitemap: http://www.tekfusion.in/sitemap.xml
-Disallow: /about
-Disallow: /projects_clients
-Disallow: /products_services
-Disallow: /user/register
-Disallow: /user/password
-Disallow: /user
-Disallow: /clients.php
