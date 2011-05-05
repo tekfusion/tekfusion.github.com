@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {border: 0; margin: 0;}
+
+html, body {
+	height: 100%;
+	}
+body {
+	background: #CCCCCC;
+	font-family: "Lucida Sans Unicode", Verdana, sans-serif, Arial;
+	}
+	
+#page {
+	width: 90%;
+	min-width: 890px;
+	background: #FFFFFF;
+	margin: 0 auto;
+	}
+#top {
+	width: inherit;
+	height: 80px;
+	}
+	
+#leftbar {
+	min-width: 690px;
+	padding-left: 1%;
+	width: 79%;
+	float: left;
+	}
+#rightbar {
+	width: 18%;
+	float: right;
+	padding: 0 1%;
+	height: 100%;
+	}
+	
+#header {
+	width: 100%;
+	height: 150px;
+	background: #9BBE00;
+	}
+	
+#header_left {
+	background: url(../images/header_left.png) top left no-repeat;
+	height: 150px;
+	min-width: 338px;
+	margin-left: 20px;
+	float: left;
+	}
+	
+#header_right {
+	background: url(../images/header_right.png) top right no-repeat;
+	height: 150px;
+	width: 285px;
+	float: right;
+	}
+	
+#header h1 {
+	padding-left: 0px;
+	padding-top: 30px;
+	color: #FFFFFF;
+	font-size: 40px;
+	}
+	
+#footer {
+	background-color: #99CC00;	
+	clear: both;
+	text-align: center;
+	margin: 5px 10px;
+	padding-left: 15px;
+	}
+
+#footer p {
+	color: #FFFFFF;
+	font-size: 14px;
+	}
+
+#footer p a {
+	color: #FFFFFF;
+	}
+	
+#menu {
+	min-height: 150px;
+	}
+	
+#menu ul {
+	width: 100%;
+	list-style: none;
+	padding-left: 0px;
+	margin: 0px;
+	}
+	
+#menu ul li {
+	min-height: 25px;
+	height: auto;
+	margin-bottom: 2px;
+	padding-left: 3%;
+	background-color:#F4A80A;
+	color: #FFFFFF;
+	}
+	
+#menu a {
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+#menu a:hover {
+	text-decoration: underline;
+	}
+	
+#content {
+	padding: 0 20px;
+	}
+
+#content h2 {
+	text-decoration: none;
+	font-size: 24px;
+	color: #FF6600;
+	height: 30px;
+	}
+#content h3 {
+	text-decoration:none;
+	color:#FF9900;
+	font-style:normal;
+	}
+p {
+	font-size:15px;
+	color: #333333;
+	padding-bottom: 5px;
+
+	text-align: justify;
+	}
+
+p a {
+	border: none;
+	text-decoration: none;
+	color: #FF9900;
+	}
+
+ p a:hover {
+	border: none;
+	text-decoration: underline;
+	color: #FF9900;
+	}
+	
+.firstp {
+	color: #FF6600;
+	font-size: 16px;
+	}
+	
+.firstp a{
+	color:#FF3300;
+	font-weight: bold;	
+	}
+.firstp a:hover{
+	color:#FF3300;
+	text-decoration: none;
+	font-weight: bold;
+	}
